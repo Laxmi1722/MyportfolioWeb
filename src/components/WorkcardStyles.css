@@ -4,7 +4,7 @@
     padding: 4rem 0 2rem 0;
 
 }
-.Project-container{
+.project-container{
     max-width: 1140px;
     margin:auto;
     display: grid;
@@ -32,11 +32,12 @@
 .pro-details p{
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .Project-title{
     color: white;
+    /* text-align: center; */
 }
 .pro-btns{
     display: flex;
@@ -49,7 +50,7 @@
     padding: 0.5rem 1rem;
 }
 @media screen  and (max-width:740px){
-    .Project-container{
+    .project-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
